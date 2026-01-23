@@ -10,7 +10,10 @@ name="viewport" content="width=device-width, initial-scale=1.0"
 <h1>GH Demo</hi>
 
 <h1>GH Demo</h1>
-<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto minus optio, totam rem nunquam, eaque expedita harum voluptatibus culpa ullan eligendi, porro beatae vitae officiis molestiae perspiciatis voluptate commodi! Aspernatur!</p>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+Architecto minus optio, totam rem nunquam, eaque expedita 
+harum voluptatibus culpa ullan eligendi, porro beatae vitae 
+officiis molestiae perspiciatis voluptate commodi! Aspernatur!</p>
 
 </body>
 </html>
