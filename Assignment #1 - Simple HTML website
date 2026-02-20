@@ -1,0 +1,84 @@
+<header>
+<h1>K-Pop Spotlight</h1>
+
+<nav>
+<ul>
+<li><a href="#music">Music</a></li>
+<li><a href="#artists">Music</a></li>
+</ul>
+</nav>
+</header>
+
+   <main>
+
+<!-- MUSIC SECTION -->
+<section id="music">
+<h2>Music</h2>
+
+    <article>
+      <h3>IVE releases new hit single “LOVE DIVE”</h3>
+
+      <img src="images/ive-love-dive.jpg" alt="IVE performing Love Dive on stage" width="300">
+
+      <p>
+        IVE’s song “LOVE DIVE” blends elegance and confidence, quickly becoming one of the most talked-about K-pop releases of the year.
+      </p>
+
+      <a href="ive-love-dive.html" aria-label="Read more about IVE Love Dive">
+        Read more
+      </a>
+    </article>
+
+    <article>
+      <h3>NewJeans redefine K-pop with “Hype Boy”</h3>
+
+      <img src="images/newjeans-hype-boy.jpg" alt="NewJeans members in Hype Boy music video" width="300">
+
+      <p>
+        With a fresh Y2K aesthetic and catchy melodies, NewJeans have captured global attention with “Hype Boy.”
+      </p>
+
+      <a href="newjeans-hype-boy.html" aria-label="Read more about NewJeans Hype Boy">
+        Read more
+</a>
+</article>
+</section>
+
+ <!-- ARTISTS SECTION -->
+  <section id="artists">
+    <h2>Artists</h2>
+
+    <article>
+      <h3>BLACKPINK: Global Icons of K-Pop</h3>
+
+      <img src="images/blackpink-group.jpg" alt="BLACKPINK group promotional photo" width="300">
+
+      <p>
+        BLACKPINK are one of the most influential K-pop girl groups, known for their powerful performances and global impact.
+      </p>
+
+      <a href="blackpink-profile.html" aria-label="Read more about BLACKPINK">
+        Read more
+      </a>
+    </article>
+
+    <article>
+      <h3>BTS and their cultural impact</h3>
+
+      <img src="images/bts-group.jpg" alt="BTS group photo" width="300">
+
+      <p>
+        BTS have reshaped the global music industry, using their platform to discuss mental health, youth, and self-love.
+      </p>
+
+      <a href="bts-impact.html" aria-label="Read more about BTS cultural impact">
+        Read more
+</a>
+</article>
+</section>
+
+</main>
+<footer>
+  <p><small>&copy; 2026 K-Pop Spotlight</small></p>
+</footer>
+
