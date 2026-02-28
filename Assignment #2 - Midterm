@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>After Midnight in the City</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="page">
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Essay</a>
+            <a href="#">Gallery</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>After Midnight</h1>
+            <p class="subtitle">The city reveals its truest self when the lights dim</p>
+            <img src="images/city-hero.png" alt="City skyline at night">
+        </section>
+
+        <!-- The City Changes -->
+        <section>
+            <h2>The City Changes</h2>
+
+            <p>
+                When the sun slips below the horizon, the city exhales. Streets once crowded
+                with urgency soften into reflective corridors. Neon signs flicker like
+                constellations, and every shadow tells a quieter story.
+            </p>
+
+            <p>
+                Buildings seem taller at night, their windows glowing like distant stars.
+                The familiar becomes strange, and the ordinary begins to feel cinematic.
+            </p>
+
+            <blockquote>
+                <p>
+                    “At night, the city becomes a living thing — breathing, watching, waiting.”
+                </p>
+            </blockquote>
+        </section>
+
+        <!-- The People -->
+        <section>
+            <h2>The People</h2>
+
+            <p>
+                Those who remain after midnight are not rushing anywhere. They move slowly,
+                deliberately, as if aware that the city belongs to them now.
+            </p>
+
+            <h3>Wanderers</h3>
+            <p>
+                These are the souls who drift through empty streets with no destination,
+                guided only by curiosity and the hum of streetlights.
+            </p>
+
+            <h3>Observations After Midnight</h3>
+            <ul>
+                <li>Footsteps echo louder than thoughts</li>
+                <li>Windows tell stories without words</li>
+                <li>The night feels honest</li>
+            </ul>
+        </section>
+
+        <!-- After Hours -->
+        <section>
+            <h2>After Hours</h2>
+
+            <p>
+                Time stretches differently after midnight. Minutes linger. Silence speaks.
+                The city no longer demands attention — it invites reflection.
+            </p>
+
+            <p>
+                In these hours, the city is not a place of transit, but of presence.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 After Midnight Editorial</p>
+    </footer>
+
+</body>
+</html>
+
+
+/* =====================
+   Base Styles
+===================== */
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #0b0f1a;
+    color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* =====================
+   Navigation
+===================== */
+
+nav {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Descendant selector */
+nav a {
+    font-size: 14px;
+    color: #c6a85b;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #9aa0a6;
+}
+
+/* =====================
+   Typography
+===================== */
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 64px;
+    color: #c6a85b;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 36px;
+    color: #c6a85b;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #9aa0a6;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* =====================
+   Hero Section
+===================== */
+
+/* Class selector */
+.hero img {
+    width: 100%;
+}
+
+.subtitle {
+    font-size: 20px;
+    color: #9aa0a6;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* =====================
+   Sections
+===================== */
+
+section {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+/* =====================
+   Blockquote
+===================== */
+
+blockquote {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+blockquote p {
+    font-size: 24px;
+    color: #c6a85b;
+    font-style: italic;
+    text-align: center;
+}
+
+/* =====================
+   Lists
+===================== */
+
+ul {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+li {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+/* =====================
+   Footer
+===================== */
+
+/* ID selector */
+#page footer {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    background-color: #000;
+}
